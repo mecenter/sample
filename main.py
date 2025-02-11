@@ -24,12 +24,12 @@ def otp_lock_banner():
        ====UU====UU====
            '//||\\`
 [bold white]======================================
-[bold white][[bold red]^[bold white]] [bold green] Author: Krishna & Ꭰᥲʀk Ꮮᴇᴀᴅᴇʀ \n[bold white][[bold red]^[bold white]] [bold green] Github: github.com/Mr-Krishna-90 \n[bold white][[bold red]^[bold white]] [bold green] Telegram: https://t.me/+GrRkWxyiROs4ZGU1
+[bold white][[bold red]^[bold white]] [bold green] Author: Krishna & Ꭰᥲʀk Ꮮᴇᴀᴅᴇʀ \n[bold white][[bold red]^[bold white]] [bold green] Github: github.com/mecenter \n[bold white][[bold red]^[bold white]] [bold green] Telegram: https://t.me/ownclouds
 [bold white]====================================== ''')
         time.sleep(0.5)
 
 print('''[bold white]======================================
-[bold white][[bold red]^[bold white]] [bold green] Author: Krishna & Ꭰᥲʀk Ꮮᴇᴀᴅᴇʀ [bold white][[bold red]^[bold white]] [bold green] Github: github.com/Mr-Krishna-90 [bold white][[bold red]^[bold white]] [bold green] Telegram: https://t.me/+GrRkWxyiROs4ZGU1
+[bold white][[bold red]^[bold white]] [bold green] Author: Krishna & Ꭰᥲʀk Ꮮᴇᴀᴅᴇʀ [bold white][[bold red]^[bold white]] [bold green] Github: github.com/mecenter [bold white][[bold red]^[bold white]] [bold green] Telegram: https://t.me/ownclouds
 [bold white]====================================== ''')
 
 # API function
@@ -39,7 +39,7 @@ def temp_ban_api(country_code, phone_number):
         response = requests.get(api_url)
         response.raise_for_status()  # Raise an exception for HTTP errors
         if response.status_code == 200:
-            return "\n[bold green] [94m[✓]Successfully done\n  [bold green]Completed..!!\n\n[bold green]Thank You For Use My Script!!\n Created By Krishna!!\n"
+            return "\n[bold green] [94m[✓]Successfully done\n  [bold green]Completed..!!\n\n[bold green]Thank You For Use My Script!!\n Created By Mr.DosMa!!\n"
 
         else:
             return "Not done"
@@ -49,7 +49,7 @@ def temp_ban_api(country_code, phone_number):
 # Main function
 def main():
     otp_lock_banner()  # Display OTP Lock banner
-    country_code = input("\n\033[90m[\033[91m?\033[90m]] \033[92m[?]Enter Your Country Code(ex..+91) " '\n └─> ')
+    country_code = input("\n\033[90m[\033[91m?\033[90m]] \033[92m[?]Enter Your Country Code(ex..+998) " '\n └─> ')
     if not country_code.startswith("+"):
         country_code = "+" + country_code
 
